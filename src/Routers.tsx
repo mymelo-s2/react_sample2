@@ -1,9 +1,12 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeMain from "./components/HomeMain";
 import Home from "./components/Home";
 import Main from "./components/Main";
+import User from "./components/User";
+import Schedule from "./components/Schedule";
 
-const Routers = () => {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -11,10 +14,12 @@ const Routers = () => {
           <Route path="/" element={<Home />} />
         </Route>
         <Route element={<Main />}>
-          <Route path="/home" element={<Home />} />
+          <Route path="/user" element={<User />} />
+          <Route path="/schedule" element={<Schedule />} />
         </Route>
       </Routes>
     </BrowserRouter>
   );
-};
-export default Routers;
+}
+
+export default App;

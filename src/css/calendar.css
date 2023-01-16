@@ -1,0 +1,56 @@
+.fc-event-title {
+  color: black;
+}
+.fc-day-sat {
+  color: #b6eeff;
+}
+.fc-day-sun {
+  color: #ffc6c6;
+}
+.fc-event-title-container {
+  text-align: center;
+  background-color: #e68fac;
+}
+.fc-daygrid-event {
+  border: none;
+  background-color: #e68fac;
+}
+.fc-event-title {
+  background-color: #e68fac;
+  color: #ffffff;
+  font-size: 20px;
+}
+.fc .fc-button-primary {
+  font-size: 0.75rem;
+  background-color: #ffffff00;
+  color: #acaba9;
+  border: none;
+  outline: none;
+}
+.fc .fc-button-primary:not(:disabled):active,
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  background-color: #ffffff00;
+  color: #acaba9;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.fc .fc-button-primary:not(:disabled):focus,
+.fc .fc-button-primary:not(:disabled).fc-button-focus {
+  background-color: #ffffff00;
+  color: #acaba9;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.fc .fc-button-primary:not(:disabled):hover,
+.fc .fc-button-primary:not(:disabled).fc-button-focus {
+  background-color: #ffffff00;
+  color: #acaba9;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.heart {
+  border: 2px splid red;
+}

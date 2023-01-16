@@ -23,7 +23,7 @@
   width: 20vh;
   height: 90vh;
   text-align: left;
-  padding: 2% 3%;
+  padding: 1% 1%;
   box-sizing: border-box;
   border-right: 2px solid #e68fac;
   font-size: clamp(5px, 2.9vw, 25px);
@@ -40,36 +40,72 @@
 }
 .Home {
   position: relative;
-  padding-left: 10%;
+  padding-right: 10%;
 }
 .content {
-  padding: 2% 2% 2%;
+  padding: 1% 1% 2%;
   text-align: left;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-.content input {
-  border: 2px solid #e68fac;
-  width: 60vh;
-  margin-left: 5%;
-  padding: 0.25%;
+.contentflex {
+  display: flex;
+  padding-top: 2%;
 }
-.content input:hover {
+.ex {
+  width: 6%;
+  font-size: 25px;
+}
+.box {
   border: 2px solid #e68fac;
   width: 60vh;
-  margin-left: 5%;
-  padding: 0.25%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0%;
+  font-size: 25px;
+}
+.box:focus {
+  border: 2px solid #e68fac;
+  width: 60vh;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0%;
+  font-size: 25px;
+}
+.postcode {
+  border: 2px solid #e68fac;
+  width: 15vh;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0%;
+  font-size: 25px;
+}
+.address {
+  border: 2px solid #e68fac;
+  width: 108.5vh;
+  margin-left: 0%;
+  margin-right: 2%;
+  padding: 0%;
+  font-size: 25px;
 }
 .content button {
-  color: #ffffff;
-  background-color: #e68fac;
+  width: 5%;
+  color: #e68fac;
+  font-size: 20px;
+  background-color: #ffffff;
   border: 2px solid #e68fac;
-  margin-left: 5%;
+  padding: 0 1%;
+  margin-top: 5%;
+  margin-left: 42.5%;
 }
 .content button:hover {
+  width: 5%;
   color: #ffffff;
-  background-color: #dc171f;
-  border: 2px solid #dc171f;
-  margin-left: 5%;
+  font-size: 20px;
+  background-color: #e68fac;
+  border: 2px solid #e68fac;
+  padding: 0 1%;
+  margin-top: 5%;
+  margin-left: 42.5%;
 }

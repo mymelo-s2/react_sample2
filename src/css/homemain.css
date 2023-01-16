@@ -1,8 +1,14 @@
 .flex {
   display: flex;
-  padding: 5%;
+  padding: 2%;
 }
 .selectmenu {
+  width: 25vh;
+  padding: 0 10%;
+  text-align: center;
+}
+.selectmenuW {
+  width: 25vh;
   padding: 0 10%;
   text-align: center;
 }

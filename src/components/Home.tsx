@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import "../css/homemain.css";
 import { ReactComponent as User } from "../img/user.svg";
 import { ReactComponent as Calendar } from "../img/calendar.svg";
@@ -9,8 +10,34 @@ import { ReactComponent as Chocolate } from "../img/chocolate.svg";
 import { ReactComponent as Heart } from "../img/heart.svg";
 
 export default function Home() {
+  const navigate = useNavigate();
   const movePage = (icon: string) => {
-    console.log(icon);
+    switch (icon) {
+      case "user":
+        navigate("/user");
+        break;
+      case "calendar":
+        navigate("/schedule");
+        break;
+      case "money":
+        navigate("/moneymanage");
+        break;
+      case "memo":
+        navigate("/memo");
+        break;
+      case "cooking":
+        navigate("/recipe");
+        break;
+      case "nail":
+        navigate("/beauty");
+        break;
+      case "chocolate":
+        navigate("/chocolate")
+        break;
+      default:
+        navigate("memorial")
+        break;
+    }
   };
   return (
     <div className="home">
@@ -49,6 +76,20 @@ export default function Home() {
         </div>
       </div>
       <div className="flex">
+        <div className="selectmenuW" onClick={() => movePage("user")}>
+          User
+        </div>
+        <div className="selectmenuW" onClick={() => movePage("calendar")}>
+          Schedule
+        </div>
+        <div className="selectmenuW" onClick={() => movePage("money")}>
+          Money
+        </div>
+        <div className="selectmenuW" onClick={() => movePage("memo")}>
+          Memo
+        </div>
+      </div>
+      <div className="flex">
         <div className="selectmenu" onClick={() => movePage("cooking")}>
           <Cooking
             style={{
@@ -80,6 +121,20 @@ export default function Home() {
               height: "150%"
             }}
           />
+        </div>
+      </div>
+      <div className="flex">
+        <div className="selectmenuW" onClick={() => movePage("cooking")}>
+          Resipe
+        </div>
+        <div className="selectmenuW" onClick={() => movePage("nail")}>
+          Beauty
+        </div>
+        <div className="selectmenuW" onClick={() => movePage("chocolate")}>
+          Chocolate
+        </div>
+        <div className="selectmenuW" onClick={() => movePage("heart")}>
+          Memorial
         </div>
       </div>
     </div>

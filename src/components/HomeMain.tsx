@@ -5,7 +5,7 @@ export default function HomeMain() {
   return (
     <div className="main">
       <div className="main_header" id="header">
-        React Sample
+        Sample App
       </div>
       <div className="main_menu">
         <div className="content">
