@@ -55,7 +55,7 @@ export default function Main() {
             </Link>
           </div>
           <div>
-            <Link to="/moneymanage" className="menu">
+            <Link to="/money" className="menu">
               <Money
                 style={{
                   width: "clamp(5px, 2.9vw, 20px)",
@@ -123,7 +123,7 @@ export default function Main() {
                 }}
                 className="Home"
               />
-              Memorial
+              Memorials
             </Link>
           </div>
         </div>

@@ -5,6 +5,10 @@ import Home from "./components/Home";
 import Main from "./components/Main";
 import User from "./components/User";
 import Schedule from "./components/Schedule";
+import Money from "./components/Money";
+import Memo from "./components/Memo";
+import Recipe from "./components/Recipe";
+import OmeletteRice from "./components/OmeletteRice";
 
 function App() {
   return (
@@ -16,7 +20,11 @@ function App() {
         <Route element={<Main />}>
           <Route path="/user" element={<User />} />
           <Route path="/schedule" element={<Schedule />} />
+          <Route path="/money" element={<Money />} />
+          <Route path="/memo" element={<Memo />} />
+          <Route path="/recipe" element={<Recipe />} />
         </Route>
+        <Route path="/omeletterice" element={<OmeletteRice />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,11 @@
+.ingredient {
+  width: 30%;
+  height: 90vh;
+}
+.directions {
+  height: 90vh;
+}
+.svg {
+  padding-top: 1.5%;
+  padding-right: 1%;
+}

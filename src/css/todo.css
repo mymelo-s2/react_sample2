@@ -1,0 +1,93 @@
+.todoList {
+  width: 70%;
+  margin-left: 2%;
+}
+.todoList p {
+  font-size: 25px;
+}
+.todoList p:hover {
+  font-size: 25px;
+  color: #e68fac;
+}
+.todoList li {
+  font-size: 25px;
+}
+.todoList p button {
+  width: 3vh;
+  height: 3vh;
+  font-size: 25px;
+  margin-right: 2%;
+  background-color: #ffffff;
+  border: 2px solid #e68fac;
+  color: #e68fac;
+}
+.addTotoButton {
+  width: 5vh;
+  height: 3vh;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 2px solid #e68fac;
+  color: #e68fac;
+  margin-bottom: 5%;
+}
+.addTotoButton:hover {
+  width: 5vh;
+  height: 3vh;
+  font-size: 15px;
+  background-color: #e68fac;
+  border: 2px solid #e68fac;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+.textbox {
+  border: 2px solid #e68fac;
+  max-width: 50vh;
+}
+select {
+  height: 3.5vh;
+  margin-bottom: 5%;
+  font-size: 20px;
+  border: 2px solid #e68fac;
+  color: #e68fac;
+}
+select option {
+  font-size: 20px;
+  border: 2px solid #e68fac;
+  color: #e68fac;
+}
+.inputPrice {
+  margin: 0 2% 5% 2%;
+  font-size: 25px;
+  border: 2px solid #e68fac;
+}
+.addPriceButton {
+  width: 5vh;
+  height: 3.5vh;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 2px solid #e68fac;
+  color: #e68fac;
+  margin-left: 0;
+}
+.addPriceButton:hover {
+  width: 5vh;
+  height: 3.5vh;
+  font-size: 15px;
+  background-color: #e68fac;
+  border: 2px solid #e68fac;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid #e68fac;
+  width: 50%;
+}
+table th {
+  border: 2px solid #e68fac;
+  padding-left: 2%;
+}
+.thtitle {
+  background-color: #e68fac;
+  color: #ffffff;
+}

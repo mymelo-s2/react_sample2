@@ -20,7 +20,7 @@ export default function Home() {
         navigate("/schedule");
         break;
       case "money":
-        navigate("/moneymanage");
+        navigate("/money");
         break;
       case "memo":
         navigate("/memo");
